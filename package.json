@@ -1,0 +1,9 @@
+{
+  "name": "google-billing-slack",
+  "version": "0.0.1",
+  "description": "Slack integration for Google Cloud billing",
+  "main": "index.js",
+  "dependencies": {
+    "@slack/client": "4.4.0"
+  }
+}
