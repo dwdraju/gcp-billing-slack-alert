@@ -4,7 +4,7 @@ const webhook = new IncomingWebhook(SLACK_WEBHOOK_URL);
 
 
 module.exports.subscribe = (event, callback) => {
-  const pubsubMessage = eventToBilling(event.data.data);
+  const pubsubMessage = eventToBilling(event.data);
 
 // Send message to Slack.
   const message = createSlackMessage(pubsubMessage);
